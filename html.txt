@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=100">
+<style>
+* {
+  box-sizing: border-box;
+  
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {background-color: white;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body bgcolor="white" alink="yellow">
+
+<h1 style="text-align:center;">WEEK ONE TASK</h1>
+<h4>Grades(SIT120)Calculator</h4>
+<h6>
+Name: <input type="text" id="txtname"><br>
+Class  : <input type="text" id="txtclass"><br>
+Mark1: <input type="text" id="txtm1"><br>
+Mark2: <input type="text" id="txtm2"><br>
+Mark3: <input type="text" id="txtm3"><br>
+<input type="button" onclick="getavg()" value="Show Average" />
+<h5> Displaying total and average mark</h5>
+Total: <input type="text" id="txttotal"/>
+Average: <input type="text" id="txtavg" />
+
+<h6>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2 style="text-align:center;">E-website</h2>
+    <p>
+    <form>
+
+      <label>Enter the model number </label>
+
+      <input type="text" name="first name" size=10 />
+      <br><label>Enter the gender  </label>
+      <input type ="text" name="surname name" size=10>
+      <br><B> Size of the shoe(in Inches): </B>
+      
+<INPUT TYPE="radio" NAME="Size" VALUE="Large">Large
+<INPUT TYPE="radio" NAME="Size" VALUE="Medium">Medium
+<INPUT TYPE="radio" NAME="Size" VALUE="Small">Small
+
+<br><B> Color of the shoe: </B>
+<INPUT TYPE="checkbox" NAME="Color" VALUE="Red">Red
+<INPUT TYPE="checkbox" NAME="Color" VALUE="Navy">Navy
+<INPUT TYPE="checkbox" NAME="Color" VALUE="Black">Black
+<br><B> Shoe Preferences:</B>
+<SELECT>
+<OPTION VALUE="LOAFERS">LOAFERS
+</OPTION>
+<OPTION VALUE="SNEAKERS">SNEAKERS
+</OPTION>
+<OPTION VALUE="BOOTS">BOOTS
+</OPTION>
+<OPTION VALUE="FLIPFLOP">FLIPFLOP
+</OPTION>
+<OPTION VALUE="LONG BOOTS">LONG BOOTS
+</OPTION>
+</SELECT>
+</form>
+</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+  <h2 style="color:orange;"> Units</h2>
+    <p><ol id="kartiklist">
+
+      <li>Intro to programming</li>
+      <ul>
+  <li> Basic looping</li>
+  <li>Arrays and Pointers</li>
+  <li>Strings</li>
+</ul>  
+
+      <li>Web Fundamentals</li>
+      <ul>
+  <li>Intro to jss,css and html</li>
+  <li>Js functions</li>
+  <li>Frameworks</li>
+</ul> 
+     
+    </ol>
+
+    <button onclick="document.getElementById('myp'),innerHTML=Date()">
+      click me
+
+    </button></p>
+  </div>
+</div>
+<p>
+<br><hr>
+<p style="text-align:center;">Table of 1</p>
+<TABLE STYLE ="COLOR:RED;"ALIGN="CENTER" BORDER=10>
+<TR>
+<TD>1x1</TD>
+<TD>ONE</TD>
+</TR>
+<TR>
+<TD>1x2</TD>
+<TD>TWO</TD>
+</TR>
+<TR>
+<TD>1x3</TD>
+<TD>THREE</TD>
+</TR>
+<TR>
+<TD>1x4</TD>
+<TD>FOUR</TD>
+</TR>
+<TR>
+<TD>1x5</TD>
+<TD>FIVE</TD>
+</TR>
+<TR>
+<TD>1x6</TD>
+<TD>SIX</TD>
+</TR>
+<TR>
+<TD>1x7</TD>
+<TD>SEVEN</TD>
+</TR>
+<TR>
+<TD>1x8</TD>
+<TD>EIGHT</TD>
+</TR>
+<TR>
+<TD>1x9</TD>
+<TD>NINE</TD>
+</TR>
+<TR>
+<TD>1x10</TD>
+<TD>TEN</TD>
+</TR>
+</TABLE>
+     
+      </p>
+</body>
+
+</html>

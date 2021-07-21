@@ -1,0 +1,14 @@
+function getavg()
+{
+var m1=document.getByElementId("txtm1").value;
+var m2=document.getByElementId("txtm2").value;
+var m3=document.getByElementId("txtm3").value;
+var total=m1+m2+m3;
+var avg=total/3;
+document.getElementById('txtstuname').value=document.getElementById('txtname').value;
+document.getElementById('txtstuclass').value=document.getElementById('txtclass').value;
+document.getElementById("txttotal").value=total;
+document.getElementById("txtavg").value=avg;
+document.write("total of marks",total);
+document.write("average of marks",avg);
+}
